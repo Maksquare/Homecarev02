@@ -33,7 +33,7 @@ const Services = () => {
       icon: <PiPaintRollerFill />,
       title: "Therapy & Rehabilitation Services",
       description: `Focuses on recovery, wellness, and long-term improvement`,
-      servicesLList: ["ፊዚዮ ቴራፒ", "ስፒች ቴራፒ", "የስነምግብ ባለሞያ"],
+      servicesLList: ["ፊዚዮ ቴራፒ", "ስፒች ቴራፒ", "የስነምግብ ባለሞያ","Neurological Rehabilitation","Orthopedic Rehabilitation","Cardio-Pulmonary Rehabilitation","Pediatric Rehabilitation","Speech & Swallow Therapy","Occupational Therapy (OT)","Geriatric Rehabilitation","Post-ICU / Critical Care Rehab","Mental Health & Counseling"],
       thumbs: [
         { url: "/assets/img/services/thumb-3.jpg", alt: "Thumbs3" },
         { url: "/assets/img/services/thumb-4.jpg", alt: "Thumbs4" },

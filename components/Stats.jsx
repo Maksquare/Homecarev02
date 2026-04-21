@@ -7,17 +7,17 @@ import React, { use } from "react";
 
 const statsData = [
   {
-    endCountNum: 99,
+    endCountNum: 80,
     endCountText: "%",
     text: "Client Satisfaction Rate",
   },
   {
-    endCountNum: 12,
-    endCountText: "k",
+    endCountNum: 2000,
+    endCountText: "+",
     text: "Care Plans Delivered",
   },
   {
-    endCountNum: 1300,
+    endCountNum: 1800,
     endCountText: "+",
     text: "Families Served",
   },

@@ -37,8 +37,7 @@ const Contact = () => {
                 Contact Us
               </h4>
               <p className="mb-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                nesciunt dignissimos sint accusamus tempora. Placeat!
+               We’re here to help you and your loved ones live comfortably and safely at home. Whether you have questions about our services, need assistance choosing the right care plan, or want to schedule a consultation, our team is ready to support you every step of the way.
               </p>
               {/* Contact Items */}
               <div className="flex flex-col gap-[40px] mb-16">

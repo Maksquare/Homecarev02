@@ -32,8 +32,7 @@ const Footer = () => {
               <Image src="/assets/logo.svg" width={230} height={48} alt="" />
             </Link>
             <p className="text-border max-w-[270px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              saepe non pariatur quibusdam ex eveniet.
+              Providing compassionate, reliable home care services designed to support independence, dignity, and comfort in the place you call home.
             </p>
           </div>
           {/* contact */}
@@ -58,9 +57,7 @@ const Footer = () => {
           <div className="flex-1 text-border">
             <h4 className="h4 text-white mb-10">Newsletter</h4>
             <p className="mb-9">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Perferendis totam et odio qui, autem aperiam quod molestiae modi
-              sequi dignissimos!
+           Stay connected and informed with helpful tips, care advice, and updates from our team. Our newsletter is designed to support you and your loved ones with practical guidance and the latest in home care.
             </p>
             {/* input */}
             <div className="relative max-w-[370px]">
@@ -73,13 +70,16 @@ const Footer = () => {
               "
               />
               <button
-                className="bg-accent w-12 h-[12] absolute
+                className="bg-accent w-12 h-[12] absolute p-3
               
-              right-2 top-2 bottom-2 text-primary texl-xl flex items-center justify-center
+              right-5 top-5 bottom-5 text-primary texl-xl flex items-center justify-center
 
               "
               >
-                <RiArrowRightLine />
+                <RiArrowRightLine  className="text-white text-xl "/>
+
+
+                
               </button>
             </div>
           </div>

@@ -19,8 +19,7 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.8 }}
             className="h1 mb-4 text-white"
           >
-            <span className="text-accent">A higher</span> standard of care,
-            right at home.
+            <span className="text-accent">Hospital level</span> care right at home!
           </motion.h1>
 
           {/* Paragraph - Fixed the misplaced props */}
