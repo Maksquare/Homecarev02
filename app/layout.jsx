@@ -1,19 +1,18 @@
-import { DM_Sans, Barlow } from "next/font/google";
+import { Lora, Nunito } from "next/font/google";
 import "./globals.css";
 import FloatingIcon from "@/components/FloatingIcon";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
-const dmSans = DM_Sans({
-  variable: "--font-dmSans",
+const lora = Lora({
   subsets: ["latin"],
-  weight:["100","200","300","400","500","600","700","800","900"],
+  variable: "--font-lora",
+  weight: ["400", "500", "600", "700"],
 });
 
-const barlow = Barlow({
-  variable: "--font-barlow",
+const nunito = Nunito({
   subsets: ["latin"],
-  weight:["100","200","300","400","500","600","700","800","900"],
-
+  variable: "--font-nunito",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata = {
@@ -25,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${barlow.variable} antialiased`}
+        className={`${lora.variable} ${nunito.variable} antialiased`}
       >
              <div className="pt-28">
 
