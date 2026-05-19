@@ -16,7 +16,7 @@ import {
 const contactItems = [
   {
     icon: <RiMapPinFill />,
-    value: "Kolfe Keranyo, Ayer Tena, Ethiopia",
+    value: "Bole Road, Bole, Ethiopia",
     href: null,
   },
   {
